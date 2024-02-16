@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function Product() {
+export default function Product({setIsUser}) {
     const [products, setProducts] = useState(null);
     const [searchString, setSearchString] = useState('');
     const [isProduct, setIsProduct] = useState(false);
@@ -56,6 +56,10 @@ export default function Product() {
                         <option value="Low_to_high">Low To High</option>
                         <option value="Hight_to_Low">High To Low</option>
                     </select>
+                    <button className=' bg-slate-500 text-white px-2 py-1 rounded-lg ml-1' onClick={()=>{
+                        localStorage.removeItem('user');
+                        setIsUser(false);
+                    }}>Log Out</button>
                 </div>
             </div>
             <div className='xl:px-24 md:pt-2 bg-slate-200 w-full'>
