@@ -1,7 +1,6 @@
+# InnovationProject
 
-# fyleProject
-
- ## This is a simple project. Users can type their GitHub account name. Then it shows all the Repositories users have.
+ ## This is a product page.
 
 ## Clone the repository:
 
@@ -12,8 +11,6 @@
 - Fetch_User_Data: https://dummyjson.com/docs/auth
  
 - Fetch_Product_Data: https://dummyjson.com/docs/products
-
-- EX (Fetch user repository data): https://api.github.com/users/ajmircoder/repos?per_page=10
   
 - ## Technologies Used
   
@@ -21,3 +18,5 @@
 - CSS
 - Javascript
 - Bootstrap
+
+![image](https://github.com/ajmircoder/Innovationproject/assets/127777945/461f8065-b3a0-4085-b191-143cd4cf927d)
