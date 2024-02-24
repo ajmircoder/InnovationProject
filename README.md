@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# fyleProject
 
-Currently, two official plugins are available:
+ ## This is a simple project. Users can type their GitHub account name. Then it shows all the Repositories users have.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Clone the repository:
+
+- https://github.com/ajmircoder/Innovationproject.git
+
+## API Used
+
+- Fetch_User_Data: https://dummyjson.com/docs/auth
+ 
+- Fetch_Product_Data: https://dummyjson.com/docs/products
+
+- EX (Fetch user repository data): https://api.github.com/users/ajmircoder/repos?per_page=10
+  
+- ## Technologies Used
+  
+- HTML
+- CSS
+- Javascript
+- Bootstrap
